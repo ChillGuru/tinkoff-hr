@@ -1,0 +1,99 @@
+h1 {
+    color:white;
+    font-size: 20px;
+    margin: 23px 0px 34px 48px;
+}
+
+.users-container {
+    background: #2C2B2B;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.name {
+    font-size: 14px;
+    flex: 1 1 25%;
+    background: #E5E5E5;
+    padding-left: 50px;
+    height: 25px;
+    margin: 0 10px 0 15px;
+}
+
+span {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.sendPush {
+    display: flex;
+    width: 220px;
+    height: 25px;
+    margin-right: 10px;
+    background: #C4C4C4;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sendPush:hover {
+    background: gray;
+}
+
+.pushIcon {
+    width: 20px;
+    height: 16px;
+}
+
+.removeAccess {
+    display: flex;
+    width: 170px;
+    height: 25px;
+    margin-right: 10px;
+    background: #FF8E8E;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+.removeAccess:hover {
+    background: indianred;
+}
+
+.xIcon {
+    width: 14px;
+    height: 14px;
+}
+
+.restoreAccess {
+    display: flex;
+    width: 200px;
+    height: 25px;
+    margin-right: 10px;
+    background: #9DFCA1;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+.restoreAccess:hover {
+    background: green;
+}
+
+.vIcon {
+    width: 16px;
+    height: 14px;
+}

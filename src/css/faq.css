@@ -1,0 +1,139 @@
+.faq_container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%
+}
+
+.faq_menu_container {
+    display: flex;
+    width: 20%;
+}
+
+.faq_menu {
+    height: 100%;
+    width: 100%;
+    background: url(../img/faq-background.png);
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq_menu:before {
+    background: rgba(0, 0, 0, 0.8);
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.faq_menu__menu_buttom {
+    margin: 20px 0 20px 20px;
+    cursor: pointer;
+}
+
+.faq_menu__menu_buttom img {
+    width: 30px;
+}
+
+.faq_list {
+    max-height: calc(100vh - 126px);
+    overflow: auto;
+}
+
+.faq_list::-webkit-scrollbar {
+    width: 10px;
+    position: absolute !important;
+}
+
+.faq_list::-webkit-scrollbar-thumb {
+    width: 10px;
+    background: #7E7E7E;
+    border-radius: 5px;
+}
+
+.faq_name_container {
+    width: inherit;
+    cursor: pointer;
+    text-align: center;
+    padding: 32px 0 32px 0;
+}
+
+.selected_faq {
+    width: inherit;
+    cursor: pointer;
+    text-align: center;
+    padding: 32px 0 32px 0;
+    background: rgba(196, 196, 196, 0.3);
+}
+
+.faq_name_container:hover {
+    background: rgba(196, 196, 196, 0.3);
+}
+
+.faq_name_container span, .selected_faq span {
+    color: white;
+    font-size: 20px;
+    white-space: pre-wrap;
+}
+
+.edit_faq { 
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    right: 0;
+}
+
+.tag_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 70px; 
+    border-bottom: 1px solid white;
+    margin: 30px 0 30px 0;
+}
+
+.tag_button {
+    height: 40px;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+    background-color: indianred;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-width: 80px;
+    border-radius: 5px;
+}
+
+.tag_button:hover {
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+    background-color: pink;
+}
+
+.save_button {
+    width: 120px;
+    height: 40px;
+    background-color: #9DFCA1;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+}
+
+.save_button:hover {
+    background-color: green;
+}
+
+.edit_space {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}

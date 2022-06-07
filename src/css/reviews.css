@@ -1,0 +1,50 @@
+
+.review-row {
+    margin: 10px 20px 0px 40px;
+}
+
+.review-username {
+    font-size: 16px;
+    color: white;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 7px 0 15px 0;
+    overflow: auto;
+}
+
+.review {
+    flex: 1 1 25%;
+    background: #E5E5E5;
+    height: 70px;
+    padding: 0 20px 10px 20px;
+}
+
+.review span {
+    color: black;
+    font-size: 12px;
+}
+
+.remove-btn {
+    display: flex;
+    width:90px;
+    height: 25px;
+    margin-left: 10px;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+    background: #FF8E8E;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+.remove-btn:hover {
+    background: indianred;
+}
